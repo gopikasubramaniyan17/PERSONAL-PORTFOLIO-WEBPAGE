@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sienna | Developer Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="scroll-progress"></div>
+
+<header>
+<nav class="navbar">
+<div class="logo">Gopika.dev</div>
+
+<ul class="nav-links">
+<li><a href="#home" class="nav-link active">Home</a></li>
+<li><a href="#about" class="nav-link">About</a></li>
+<li><a href="#skills" class="nav-link">Skills</a></li>
+<li><a href="#projects" class="nav-link">Projects</a></li>
+<li><a href="#contact" class="nav-link">Contact</a></li>
+</ul>
+
+<div class="controls">
+<button id="themeToggle">🌙</button>
+<div class="hamburger">&#9776;</div>
+</div>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<div class="hero-content">
+<h1>Hi, I'm <span>Sienna</span></h1>
+<h2><span id="typing"></span></h2>
+<a href="#projects" class="btn">View My Work</a>
+</div>
+</section>
+
+<section id="about" class="section">
+<h2>About Me</h2>
+<p>I build modern responsive web applications and solve real-world problems using scalable technology.</p>
+</section>
+
+<section id="skills" class="section">
+<h2>Skills</h2>
+
+<div class="skill">
+<p>HTML</p>
+<div class="bar"><div class="progress html"></div></div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="bar"><div class="progress css"></div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><div class="progress js"></div></div>
+</div>
+
+<div class="skill">
+<p>Java</p>
+<div class="bar"><div class="progress java"></div></div>
+</div>
+
+</section>
+
+<section id="projects" class="section">
+<h2>Projects</h2>
+
+<div class="filter-buttons">
+<button data-filter="all">All</button>
+<button data-filter="web">Web</button>
+<button data-filter="app">App</button>
+</div>
+
+<div class="projects-grid">
+<div class="project-card" data-category="web">
+<h3>Chat App</h3>
+<p>Real-time WebSocket messaging.</p>
+<button class="openModal">View</button>
+</div>
+
+<div class="project-card" data-category="app">
+<h3>Missing Persons</h3>
+<p>Disaster reunification platform.</p>
+<button class="openModal">View</button>
+</div>
+
+<div class="project-card" data-category="web">
+<h3>Secure Communication</h3>
+<p>Encrypted messaging system.</p>
+<button class="openModal">View</button>
+</div>
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<form>
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<textarea placeholder="Message"></textarea>
+<button type="submit">Send</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Sienna | All Rights Reserved</p>
+</footer>
+
+<div class="modal">
+<div class="modal-content">
+<span class="close">&times;</span>
+<h3>Project Details</h3>
+<p>This project demonstrates modern UI and scalable architecture.</p>
+</div>
+</div>
+
+<button id="scrollTop">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
