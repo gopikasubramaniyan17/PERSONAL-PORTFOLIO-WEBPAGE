@@ -36,3 +36,5 @@ Overall, this portfolio website demonstrates front-end development skills, UI/UX
 
 OUTPUT
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a936e0f3-5d5e-49cd-b862-42569e7e0b95" />
+
